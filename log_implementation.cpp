@@ -2,13 +2,6 @@
 #include <cmath>
 #include <vector>
 
-void pow(std::vector<std::vector<double>>& df, double exponent) {
-    for (auto& row : df) {
-        for (auto& value : row) {
-            value = std::pow(value, exponent);
-        }
-    }
-}
 
 void log(std::vector<std::vector<double>>& df) {
     for (auto& row : df) {
@@ -37,6 +30,6 @@ int main() {
         }
         std::cout << "\n";
     }
-    
+
     return 0;
 }

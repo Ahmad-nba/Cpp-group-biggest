@@ -2,21 +2,6 @@
 #include <cmath>
 #include <vector>
 
-void pow(std::vector<std::vector<double>>& df, double exponent) {
-    for (auto& row : df) {
-        for (auto& value : row) {
-            value = std::pow(value, exponent);
-        }
-    }
-}
-
-void log(std::vector<std::vector<double>>& df) {
-    for (auto& row : df) {
-        for (auto& value : row) {
-            value = std::log(value);
-        }
-    }
-}
 
 void exp(std::vector<std::vector<double>>& df) {
     for (auto& row : df) {
